@@ -1,6 +1,6 @@
 # 🚀 ELC1065 - Laboratório de Programação I (Linguagem C)
 
-![Banner do Curso](https://via.placeholder.com/900x200?text=Laborat%C3%B3rio+de+Programa%C3%A7%C3%A3o+I)
+![Image](https://github.com/user-attachments/assets/78e8b61c-5c91-4ae5-9a33-b5e74a64af27)
 
 Repositório com conteúdos, exercícios e projetos do curso **ELC1065 - Laboratório de Programação I**, utilizando **Linguagem C**.
 
