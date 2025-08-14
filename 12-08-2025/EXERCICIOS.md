@@ -1,4 +1,3 @@
-/*
 1) Declare uma variável x como inteira. A seguir, atribua o valor 10 a
 x. Ao final, imprima x.
 
@@ -64,10 +63,3 @@ constantes.
 10) Declare uma constante denominada NUM, cujo valor deve ser 5. A
 seguir, imprima o valor do sucessor da constante e do antecessor da
 mesma, utilizando os operadores de soma e subtração.
-
-*/
-#include <stdio.h>
-
-int main() {
-    return 0;
-}
