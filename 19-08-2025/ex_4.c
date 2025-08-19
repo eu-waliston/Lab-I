@@ -19,4 +19,27 @@ decimais.
 
 int main() {
 
+    int horasDia, horasMes, valHora;
+    float salarioBruto,salarioLiquid, descontos;
+
+
+    printf("Quantas horas voce trabalha por dia: ");
+    scanf("%d", &horasDia);
+
+    printf("Quanto voce ganha por hora: ");
+    scanf("%d", &valHora);
+
+    horasMes = horasDia * 30;
+
+    salarioBruto = horasMes * valHora;
+
+    salarioLiquid = salarioBruto - 0.11 - 0.8 - 0.5;
+
+    printf("RESUTLADOS: \n");
+    printf("HORAS POR DIA: %d \n", horasDia);
+    printf("HORAS MES: %d \n", horasMes);
+    printf("GANHOS POR HORA R$:%d \n", valHora);
+    printf("SALARIO BRUTO R$:%2.f \n", salarioBruto);
+    printf("SALARIO LIQUIDO R$:%2.f \n", salarioLiquid);
+
 }
