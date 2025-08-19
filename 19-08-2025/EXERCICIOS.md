@@ -31,16 +31,15 @@ variáveis.
 uma casa (também retangular) sobre este terreno. A seguir, calcule e exiba a área
 livre do terreno, em m2
  e em percentual.
-8. Um motorista de táxi deseja calcular o rendimento de seu carro. Sabendo-se que o
-preço do combustível é de R$ 6,99, faça um programa que leia a marcação do
-odômetro (em km) no início do dia, a marcação (em km) no final do dia, o número
-de litros de combustível gastos e o valor total (R$) recebido dos passageiros. A
-seguir, calcule e escreva a média do consumo em km/l e o lucro (líquido) do dia. 
-9. Pedrinho tem um cofrinho com muitas moedas e deseja saber quantos reais
+8. Pedrinho tem um cofrinho com muitas moedas e deseja saber quantos reais
 conseguiu poupar. Faça um programa que leia a quantidade de moedas de cada
 tipo e imprima o valor total economizado, em reais. Considere que existem moedas
 de 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. Não havendo moeda de
 um tipo, a quantidade lida deve ser zero.
+9. Faça um programa que receba como entrada a quantidade de maçãs para o
+transporte e o preço de cada maçã. Como resultado, o programa deve informar o
+valor total da carga e a quantidade de caixas de maçã necessárias para o
+transporte. Considere que uma caixa de maçãs possui espaço para 48 unidades.
 10. Faça um programa que leia a quantidade de carros que uma locadora possui e o
 valor que ela cobra por diária, mostrando as informações pedidas a seguir:
  Sabendo que um terço dos carros são alugados por mês, exiba o
