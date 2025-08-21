@@ -1,3 +1,7 @@
+/*
+1) Leia 2 notas e 2 pesos, calcule e mostre a média ponderada entre as notas.
+*/
+
 #include <stdio.h>
 
 int main() {
