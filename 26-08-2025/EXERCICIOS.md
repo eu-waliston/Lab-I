@@ -36,7 +36,7 @@ cálculo.
 
 # Exercícios: Faça um programa que ... (3)
 
-Leia três valores correspondentes às medidas dos lados (a, b e c)
+8) Leia três valores correspondentes às medidas dos lados (a, b e c)
 de uma figura geométrica, e verifique se eles formam ou não um
 triângulo. Caso os valores formem triângulo calcule e exiba a sua
 área. Caso contrário, informe que eles “Não formam um triângulo”.
