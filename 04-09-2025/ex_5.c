@@ -18,24 +18,25 @@ impressão do resultado.
 
 #include <stdio.h>
 
-float quadrado()
+float area_quadrado(float lado){
+    return lado * lado;
+}
+
+float area_retangulo()
 {
 }
 
-float retangulo()
+float area_triangulo()
 {
 }
 
-float triangulo()
-{
-}
-
-float trapezio()
+float area_trapezio()
 {
 }
 
 int main()
 {
+    float lado;
     char q, r, t, p, option;
     printf("====== Calculo de Areas ======\n");
     printf("Digite:\nq - para area do quadrado\nr - Área do retângulo\nt - Área do triângulo\np - Área trapézio\n");
@@ -45,6 +46,10 @@ int main()
     {
     case 'q':
         printf("Sua escolha foi: Área do quadrado!\n");
+        printf("Digite o valor do lado do quadrado: ");
+        scanf("%f", &lado);
+
+        printf("A área do quadrado é: %2.f \n", area_quadrado(lado));
         break;
 
     case 'r':
