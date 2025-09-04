@@ -13,5 +13,4 @@ Faça um programa que leia o valor de uma compra e o prazo de pagamento. A
 seguir, o programa deve chamar uma função, passando esses valores como
 parâmetros, que deve calcular o valor a ser gasto com o produto. Esse valor deve
 ser retornado para a função main, que irá imprimir como saída.
-
 */
