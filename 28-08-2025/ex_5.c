@@ -19,3 +19,37 @@ representa uma expressão (A+B ou A*B). O programa deve imprimir a palavra
 contrário.
 
 */
+
+#include <stdio.h>
+
+int main() {
+    long long max;        // maior número que o computador pode representar
+    long long A, B;       // valores da expressão
+    char op;              // operador (+ ou *)
+
+    // Lê o valor máximo
+    scanf("%lld", &max);
+
+    // Lê a expressão no formato: A operador B
+    scanf("%lld %c %lld", &A, &op, &B);
+
+    long long resultado;
+
+    if (op == '+') {
+        resultado = A + B;     // soma
+    } else if (op == '*') {
+        resultado = A * B;     // multiplicação
+    } else {
+        printf("Operador invalido!\n");
+        return 1; // encerra o programa se operador não for válido
+    }
+
+    // Verifica se houve overflow
+    if (resultado > max) {
+        printf("Overflow\n");
+    } else {
+        printf("Ok\n");
+    }
+
+    return 0;
+}

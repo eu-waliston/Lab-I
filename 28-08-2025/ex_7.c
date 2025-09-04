@@ -21,3 +21,24 @@ Entrada 2 1 1       Saída Ana
 
 
 */
+
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+
+    // Lê os valores escolhidos
+    scanf("%d %d %d", &A, &B, &C);
+
+    if (A != B && A != C) {
+        printf("Ana\n");
+    } else if (B != A && B != C) {
+        printf("Bob\n");
+    } else if (C != A && C != B) {
+        printf("Caren\n");
+    } else {
+        printf("*\n");
+    }
+
+    return 0;
+}
