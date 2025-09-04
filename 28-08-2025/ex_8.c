@@ -9,3 +9,21 @@ considerada uma bola dentro. O programa deve imprimir a informação se a
 bola caiu dentro ou fora da quadra.
 
 */
+
+#include <stdio.h>
+
+int main() {
+    int X, Y;
+
+    // Lê as coordenadas do ponto
+    scanf("%d %d", &X, &Y);
+
+    // Verifica se está dentro (ou na linha) da semi-quadra
+    if (X >= 0 && X <= 432 && Y >= 0 && Y <= 468) {
+        printf("Dentro\n");
+    } else {
+        printf("Fora\n");
+    }
+
+    return 0;
+}

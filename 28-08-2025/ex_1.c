@@ -27,3 +27,42 @@ Faça um programa que leia o consumo de uma residência, em m³, calcule e
 imprima o valor de sua conta de água
 
 */
+
+#include <stdio.h>
+
+int main()
+{
+    int consumo, excedente;
+    double conta = 7;
+
+    printf("Digite o consumo de agua em M³: ");
+    scanf("%d", &consumo);
+
+    if (consumo > 10)
+    {
+        if (consumo <= 30)
+        {
+            excedente = consumo - 10;
+            conta += excedente * 1.0;
+        }
+
+        else if (consumo <= 100)
+        {
+            conta += 20 * 1.0;
+            excedente = consumo - 30;
+            conta += excedente * 2.0;
+        }
+
+        else
+        {
+            conta += 20 * 1.0;
+            conta += 70 * 2.0;
+            excedente = consumo - 100;
+            conta += excedente * 5.0;
+        }
+    }
+
+    printf("O valor da conta de agua é: R$ %2.f\n", conta);
+
+    return 0;
+}
