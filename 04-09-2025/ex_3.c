@@ -4,6 +4,7 @@
     - 1ª e 2ª hora - R$ 1,00 cada
     - 3ª e 4ª hora - R$ 1,40 cada
     - 5ª e seguintes - R$ 2,00 cada
+    
 O número de horas a pagar é sempre inteiro e arredondado por excesso. Assim,
 quem estacionar durante 61 minutos pagará por duas horas, que é o mesmo que
 pagaria se tivesse permanecido 120 minutos. Os momentos de chegada ao

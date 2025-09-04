@@ -2,6 +2,7 @@
 
 5) Utilize o comando switch e o tipo ‘char’ para fazer um programa que calcula
 as áreas das seguintes figuras geométricas:
+
     ‘q’ - Área do quadrado
     ‘r’ - Área do retângulo
     ‘t’ - Área do triângulo
@@ -11,6 +12,55 @@ Baseado na escolha do usuário, você deverá ler os valores necessários para f
 os cálculos, imprimir o nome da figura escolhida e o valor da área. As opções de
 figuras geométricas devem estar dispostas em um switch e cada uma delas
 implementada por uma função. Cada função irá fazer a leitura da entrada e a
-impressão do resultado. 
+impressão do resultado.
 
 */
+
+#include <stdio.h>
+
+float quadrado()
+{
+}
+
+float retangulo()
+{
+}
+
+float triangulo()
+{
+}
+
+float trapezio()
+{
+}
+
+int main()
+{
+    char q, r, t, p, option;
+    printf("====== Calculo de Areas ======\n");
+    printf("Digite:\nq - para area do quadrado\nr - Área do retângulo\nt - Área do triângulo\np - Área trapézio\n");
+    scanf("%c", &option);
+
+    switch (option)
+    {
+    case 'q':
+        printf("Sua escolha foi: Área do quadrado!\n");
+        break;
+
+    case 'r':
+        printf("Sua escolha foi: Área do retângulo!\n");
+        break;
+
+    case 't':
+        printf("Sua escolha foi: Área do triângulo!\n");
+        break;
+
+    case 'p':
+        printf("Sua escolha foi: Área do trapézio!\n");
+        break;
+
+    default:
+        printf("Opção Inválida!!! \n");
+        break;
+    }
+}
