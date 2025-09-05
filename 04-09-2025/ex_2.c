@@ -40,3 +40,30 @@ Entrada     saida
 2 2 0 3
 
 */
+
+#include <stdio.h>
+
+void verificaColisao() {
+    // Declarando coordenadas dos dois retângulos
+    int x0, y0, x1, y1; // retangulo 1
+    int x2, y2, x3, y3; // retangulo 2
+
+    // Lendo retangulo 1
+    scanf("%d %d %d %d", &x0, &y0, &x1, &y1);
+
+    // Lendo retangulo 2
+    scanf("%d %d %d %d", &x2, &y2, &x3, &y3);
+
+    // Verifica se há intersecção
+    // Se algum retângulo estiver totalmente à esquerda/direita/acima/abaixo → nao colidem
+    if (x1 <= x2 || x0 >= x3 || y1 <= y2 || y0 >= y3) {
+        printf("0\n"); // Sem colisão
+    } else {
+        printf("1\n"); // Colisão
+    }
+}
+
+int main() {
+    verificaColisao(); // chamando a função
+    return 0;
+}

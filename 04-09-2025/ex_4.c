@@ -20,3 +20,35 @@ ENTRADA         SAIDA
 500             R$ 115,00
 
 */
+
+#include <stdio.h>
+
+void calcula_gasolina_diesel() {
+    int km;
+    float litros, preco, gasto;
+
+    scanf("%d", &km);
+
+    if (km < 0 || km > 900) {
+        printf("Distância inválida!!! \n");
+        return;
+    }
+
+    litros = km / 10.0;
+
+    if(litros > 45) {
+        preco = 2.30;
+    }
+    else {
+        preco = 2.50;
+    }
+
+    gasto = litros * preco;
+
+    printf("R$ %2.f\n", gasto);
+}
+
+int main() {
+    calculaGastoDiesel();
+    return 0;
+}

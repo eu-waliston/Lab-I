@@ -15,7 +15,7 @@ implementada por uma função. Cada função irá fazer a leitura da entrada e a
 impressão do resultado.
 
 */
-
+//
 #include <stdio.h>
 
 float area_quadrado(float lado){
