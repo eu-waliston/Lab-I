@@ -1,4 +1,5 @@
 1) Gere e escreva os números ímpares dentro de um intervalo digitado
+
 pelo usuário. O programa deve exibir também a soma destes
 números.
 
@@ -27,4 +28,4 @@ Ex.: 0+1 = 1 → terceiro termo; 1+1 = 2 → quarto termo;
 1+2=3→ quinto termo; ...
 
 7) Leia 2 números inteiros (tab e limite) e imprima a tabuada de tab
-desde 1 até limite. 
+desde 1 até limite.
