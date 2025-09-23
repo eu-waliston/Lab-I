@@ -15,3 +15,20 @@ Ex.: para N = 20 e I = 5 serão impressos: 0, 5, 10, 15, 20.
 */
 
 #include <stdio.h>
+
+void intervalo() {
+    int num, incremento, count, i;
+
+    printf("Digite um número pra ver o intervalo dele: ");
+    scanf("%d", &num);
+
+    for( i; i <= num; i++) {
+       printf("%d", i);
+    }
+
+    printf("N: %d e Incremento: %d \nO intevalor foi: %d", num, incremento, count);
+}
+
+int main() {
+    intervalo();
+}
