@@ -12,6 +12,24 @@ consecutivos. (ex.: 24 é triangular, pois 24 = 2*3*4)
 
 #include <stdio.h>
 
-int calculo_triangular(int num) {
-    
+int isTriangular(int num);
+
+int main() {
+    int num;
+
+    printf("Digite um numero inteiro e positivo: ");
+    scanf("%d", &num);
+
+    if (num <= 0) {
+        printf("O numero deve ser inteiro e positivo.\n");
+        return 1;
+    }
+
+    if (isTriangular(num)) {
+        printf("%d eh um numero triangular.\n", num);
+    } else {
+        printf("%d nao eh um numero triangular.\n", num);
+    }
+
+    return 0;
 }
