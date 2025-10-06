@@ -46,3 +46,5 @@ o número da linha e da coluna que indicam a posição de sua Torre. A seguir, o
 quais são os possíveis movimentos da Torre. Utilize "−" para indicar uma casa para a qual a Torre não
 pode ser movida e "x" para indicar uma casa para a qual ela pode ser movida. A saída do programa deve
 ser como segue:
+
+# TODO Exercicios do dia (25/09)
