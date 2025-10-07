@@ -11,12 +11,14 @@ int main(void) {
     int menor, posicao;
 
     printf("Digite %d valores inteiros:\n", TAM);
+    
     for (int i = 0; i < TAM; i++) {
         printf("Valor %d: ", i + 1);
         scanf("%d", &vetor[i]);
     }
 
     printf("\nVetor original:\n");
+
     for (int i = 0; i < TAM; i++) {
         printf("%d ", vetor[i]);
     }
@@ -32,6 +34,7 @@ int main(void) {
     }
 
     printf("\nMenor valor: %d\n", menor);
+
     printf("Posição do menor valor no vetor: %d\n", posicao);
 
     return 0;

@@ -21,19 +21,28 @@ tamanho 5x5 e a imprima. A seguir, troque:
 #define PEN LIN - 4
 #define PEN_C COL - 4
 
+#define LIN_MAX 5
+#define COL_MAX 5
+
 int main()
 {
     int matriz[LIN][COL];
     int i, j, temp;
 
-    printf("Digite os elementos da matriz %dx%d:\n", LIN, COL);
 
-    for (i = 0; i < LIN; i++)
+    for (int i = 0; i <= LIN_MAX; i++)
     {
-        for (j = 0; j < COL; j++)
+        for (int j = 0; j <= COL_MAX; i++)
         {
-            printf("Elemento [%d][%d]: ", i, j);
-            scanf("%d", &matriz[i][j]);
+
+            for (i = 0; i < LIN; i++)
+            {
+                for (j = 0; j < COL; j++)
+                {
+                    printf("Elemento [%d][%d]: ", i, j);
+                    scanf("%d", &matriz[i][j]);
+                }
+            }
         }
     }
 
@@ -90,7 +99,7 @@ int main()
         matriz
             [i][i] = matriz[i][ULT_C - i];
         matriz[i][ULT_C - i] = temp;
-    }   
+    }
     printf("\nMatriz após trocar a diagonal principal pela secundária:\n");
     for (i = 0; i < LIN; i++)
     {
@@ -101,5 +110,4 @@ int main()
         printf("\n");
     }
     return 0;
-}   
-
+}
